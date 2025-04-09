@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đặt bàn - nhom5</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Đặt bàn tại nhà hàng nhom5</h1>
+    <form id="bookingForm">
+      <input type="text" id="name" placeholder="Tên của bạn" required />
+      <input type="number" id="people" placeholder="Số người" min="1" required />
+      <input type="datetime-local" id="datetime" required />
+      <button type="submit">Đặt bàn</button>
+    </form>
+    <div id="confirmation"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
